@@ -1,0 +1,41 @@
+# Secrets and local env
+.env
+.env.local
+.env.development
+.env.production
+.env*.local
+*.pem
+*.key
+
+# Dependencies and generated output
+node_modules
+dist
+.output
+.vercel
+.nitro
+.vinxi
+.tanstack
+.vite
+coverage
+playwright-report
+test-results
+*.tsbuildinfo
+*.log
+
+# Embedded / local database
+.pglite
+pglite-data
+
+# Workspace-only (do not ship to production Git)
+screenshots
+artifacts
+attachments
+.grok
+.project_id
+.node_modules.lock
+
+# OS / editor
+.DS_Store
+.idea
+.vscode
+Thumbs.db
