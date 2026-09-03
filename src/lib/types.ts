@@ -49,7 +49,7 @@ export type Appointment = {
   createdAt: string;
 };
 
-export type ChatRole = "patient" | "hala" | "system";
+export type ChatRole = "patient" | "hala" | "staff" | "system";
 
 export type ChatMessage = {
   id: string;
